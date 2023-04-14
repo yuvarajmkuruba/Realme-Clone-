@@ -4,21 +4,45 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.maincontainer{
+    border: solid green;
+}
 .fpage{
     width: 100%;
-    height: 500px;
+
+    height: 330px;
     flex-wrap: wrap;
-    background-size: cover;
+    background-size: contain;
     background-image: url("/Assets/images/1.webp");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    border: solid red;
+    border: solid red; 
+    .fr{
+        flex-wrap: wrap;
+        width: 60%;
+        height: 305px;
+        border: solid green;
+        display: flex;
+        // flex-wrap: wrap;
+        // width: 60%;
+        justify-content: center;
+        align-items: center;
+        // padding: 50px;
+        color: white;
+        .centre{
+            border: solid red;
+            font-size: xx-large;
+            font-family: 'Chivo Mono', monospace;
+        } 
+    }
 }
 .spage{
     width: 100%;
-    height: 500px;
+    height: 305px;
     flex-wrap: wrap;
-    background-size: cover;
+    background-size: contain;
     background-image: url("/Assets/images/2.webp");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     border: solid red;
 }
